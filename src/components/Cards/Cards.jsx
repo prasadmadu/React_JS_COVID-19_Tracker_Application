@@ -16,7 +16,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) =>{
       <Grid container spacing={3} justify="center" >
         <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.infected)} >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography color="#e6e3e3" gutterBottom>
               Infected
             </Typography>
             <Typography variant="h5">
@@ -27,7 +27,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) =>{
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">
+            <Typography color="#e6e3e3">
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
@@ -37,7 +37,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) =>{
         </Grid>
         <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.recoverd)} >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography color="#e6e3e3" gutterBottom>
               Recoverd
             </Typography>
             <Typography variant="h5">
@@ -48,7 +48,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) =>{
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">
+            <Typography color="#e6e3e3">
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">
@@ -58,7 +58,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) =>{
         </Grid>
         <Grid item component={Card} xs={12} md={3} className={cx(styles.card, styles.deaths)} >
           <CardContent>
-            <Typography color="textSecondary" gutterBottom>
+            <Typography color="#e6e3e3" gutterBottom>
               Deaths
             </Typography>
             <Typography variant="h5">
@@ -69,7 +69,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) =>{
                 separator=","
               />
             </Typography>
-            <Typography color="textSecondary">
+            <Typography color="#e6e3e3">
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2">

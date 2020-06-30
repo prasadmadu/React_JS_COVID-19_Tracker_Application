@@ -1,5 +1,5 @@
 .formControl{
   background-color: white;
-  margin: 20px;
-  padding: 20px;
+  margin: 20px !important;
+  padding: 20px !important;
 }
