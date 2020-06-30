@@ -1,0 +1,14 @@
+body{
+  background-image: linear-gradient(to right, #2C2C2C, #191A1C);
+  box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+  max-width: 100%;
+}
